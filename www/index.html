@@ -4,6 +4,15 @@
 		<meta charset="utf-8" />
 		<title>Holsteiner-Arschloch</title>
 		<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+		<script>
+			function onDeviceReady = function() {
+				console.log("device ready");
+				window.plugins.socketPlugin.echo("FERTIG");
+			};
+			
+			document.addEventListener('deviceready', onDeviceReady, true);
+		</script>
 	</head>
 	<body>
 		Hallo Welt!
