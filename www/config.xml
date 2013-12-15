@@ -11,11 +11,18 @@
         App zum Spielen des Kartenspiels: Holsteiner-Arschloch 
     </description>
 
-    <author href="http://luetkemeyer.com/kilian" email="kilian@luetkemeyer.com">
+    <author	href="http://luetkemeyer.com/kilian" 
+			email="kilian@luetkemeyer.com">
         Kilian Lütkemeyer
     </author>
 
 	<!-- limit app to iOS and Android -->
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
+	
+	
+	<!-- define slash screens -->
+	<gap:splash	src="res/screen/android/screen-xhdpi-landscape.png"
+			gap:platform="android"
+			gap:density="xhdpi" />
 </widget>
