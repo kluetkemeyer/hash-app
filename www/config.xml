@@ -41,7 +41,7 @@
 			gap:platform="android"
 			gap:density="xhdpi" />
 			
-	<plugin 
+	<gap:plugin 
 			name="SocketPlugin" 
 			value="de.brainiiiii.phonegap.plugin.socket.SocketPlugin" />
 </widget>
